@@ -2,10 +2,15 @@
 
 Server to run on raspberry pi for home automation
 
-### Running the server 
-1. run `source bin/activate` in the project folder to activate python virtual environment
-1. Install Dependencies???
-1. Execure `flask run` to start the dev server
+### Setting up the project
+1. Create a virtual env `python3 -m venv home-api`
+1. Activate the virtual env with:
+	- `source tutorial-env/bin/activate` Unix
+	- `tutorial-env\Scripts\activate.bat` Windows
+1. Install dependencies `python -m pip install -r requirements.txt`
 
-#### TODO
-requirements.txt 
+### Running the server 
+1. Execute `flask run` to start the dev server
+
+#### Updating dependencies
+Install dependency to venv and execute `python -m pip freeze > requirements.txt` to update requirements.txt
