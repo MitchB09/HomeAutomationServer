@@ -3,10 +3,10 @@
 Server to run on raspberry pi for home automation
 
 ### Setting up the project
-1. Create a virtual env `python3 -m venv home-api`
+1. Create a virtual env in folder `python3 -m venv home-api`
 1. Activate the virtual env with:
-	- `source tutorial-env/bin/activate` Unix
-	- `tutorial-env\Scripts\activate.bat` Windows
+	- `source bin/activate` Unix
+	- `Scripts\activate.bat` Windows
 1. Install dependencies `python -m pip install -r requirements.txt`
 
 ### Running the server 
